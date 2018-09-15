@@ -157,12 +157,14 @@ class AddForm extends React.Component {
           />
         </div>
         <div>
+          
           <SelectField
             name="product_type"
             floatingLabelText="Product Type"
             value={this.state.product_type}
             onChange={this.handleSelectFieldChange}
           >
+          {/* changes here for the product type */}
             {this.props.productTypes.map((type, i) => (
               <MenuItem key={i} value={type.id} primaryText={type.name} />
             ))}
