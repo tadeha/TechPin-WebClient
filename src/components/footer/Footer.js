@@ -16,21 +16,8 @@ const Footer = props => {
     <div className="footer">
       <section className="footer-about">
         <div>
-          <span>TechPin, Dynamic list of startups & accelerators in Iran</span>
+          <span>TechPin, Discover & Connect to startups, VCs and accelerators in MENA</span>
           <p>{footerText}</p>
-          <ul className="contact-us-footer">
-          <li>
-            Contact us via:
-          </li>
-          <li>
-            <a href="mailto:support@techpin.ir" target="_top">Send Mail</a>
-          </li>
-          <li>
-            <a href="https://t.me/Techpin_Support" target="_blank">
-              <i className="fa fa-telegram" aria-hidden="true" />
-            </a>
-          </li>
-        </ul>
         </div>
         <TelegramBot />
       </section>
